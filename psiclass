@@ -193,7 +193,7 @@ if ( scalar( @bamFiles ) == 0 )
 
 if ( $mateIdx == -1 )
 {	
-	open FPsam, "$WD/samtools-0.1.19/samtools view ".$bamFiles[0]."| head -1000 |" ; 
+	open FPsam, "samtools view ".$bamFiles[0]."| head -1000 |" ; 
 	my $flag = 0 ;
 	while ( <FPsam> )
 	{
