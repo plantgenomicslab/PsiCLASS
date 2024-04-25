@@ -541,7 +541,7 @@ public:
 		if (lensCnt > 0)
 			readLen = lens[ lensCnt - 1 ] ;
 		else
-			readLen = 150 ;
+			readLen = 100 ;
 		
 		if ( mateDiffCnt > 0 )
 		{
